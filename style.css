@@ -23,6 +23,8 @@ body, html {
     /* było 2f2f2f */
     background-color: #fcfcfc;
     /* scroll-behavior: smooth; */
+    /* overflow: auto; */
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Nagłówek */
