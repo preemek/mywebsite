@@ -498,7 +498,7 @@ footer {
 
 /* --- RESPONSYWNOŚĆ NA TELEFONY --- */
 @media (max-width: 768px) {
-    body,html{
+    body,html {
         overflow: auto;
     }
 
@@ -506,17 +506,15 @@ footer {
       font-size: 3vw;
       padding: 5vh 5vw;
       height: 20vh;
-
     }
   
     .navdiv {
       flex-direction: row;
       align-items: flex-start;
       gap: 2vh; 
-
     }
   
-    .nav-menu{
+    .nav-menu {
         position: fixed;
         left: -200%;
         top: 70px;
@@ -531,7 +529,7 @@ footer {
         margin: 16px 0;
     }
 
-    .nav-menu.active{
+    .nav-menu.active {
         left: 0;
     }
 
@@ -557,11 +555,11 @@ footer {
         padding: 0 5vw;
     }
 
-    .hero{
+    .hero {
         min-height: 80vh;
     }
 
-    .name-container{
+    .name-container {
         margin-top: -25vh;
     }
   
@@ -570,7 +568,7 @@ footer {
       /* background-color: red; */
     }
 
-    .scroll-down{
+    .scroll-down {
         display: flex;
         flex-direction: row;
         /* background-color: pink; */
@@ -619,7 +617,7 @@ footer {
       margin-top: 3vh;
     }
   
-    #about h2{
+    #about h2 {
         font-size: 8vw;
         min-height: unset;
         margin-top: 0;
@@ -664,7 +662,7 @@ footer {
       gap: 4vw;
     }
 
-    #contact{
+    #contact {
         margin-left: -5vw;
         margin-top: 10vh;
     }
