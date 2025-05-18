@@ -497,6 +497,10 @@ footer {
 
 /* --- RESPONSYWNOŚĆ NA TELEFONY --- */
 @media (max-width: 768px) {
+    body,html{
+        overflow: auto;
+    }
+
     header {
       font-size: 3vw;
       padding: 5vh 5vw;
