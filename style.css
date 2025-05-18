@@ -561,7 +561,7 @@ footer {
     }
 
     .name-container{
-        margin-top: -30vh;
+        margin-top: -25vh;
     }
   
     .firstname, .lastname {
@@ -573,7 +573,7 @@ footer {
         display: flex;
         flex-direction: row;
         /* background-color: pink; */
-        margin-bottom: 15vh;
+        margin-bottom: 10vh;
     }
   
     .hero-description {
