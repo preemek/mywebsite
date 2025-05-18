@@ -26,6 +26,8 @@ body, html {
     -webkit-overflow-scrolling: touch;
     overflow-y: hidden;
     overflow-x: hidden;
+    visibility: hidden;
+    overflow: hidden;
 }
 
 /* Nagłówek */

@@ -38,7 +38,9 @@ handleScroll();
 window.addEventListener('scroll', handleScroll);
 
 // Uruchomienie migotania od razu po załadowaniu strony
-window.onload = function() {
+window.onload = function() {    
+    document.body.style.visibility = "visible";
+    document.body.style.overflow = "auto";
 
     //Odblokowuje scrollowanie
     setTimeout(() => {
