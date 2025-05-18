@@ -27,7 +27,6 @@ body, html {
     overflow-y: hidden;
     overflow-x: hidden;
     visibility: hidden;
-    overflow: hidden;
 }
 
 /* Nagłówek */
@@ -602,7 +601,14 @@ footer {
     #about-text3 {
       max-width: 100%;
       font-size: 4vw;
+      /* background-color: pink; */
+      /* margin-top: 5vh; */
      }
+
+    #about-text3 {
+        margin-top: 5vh;
+
+    }
   
     .about-text {
       font-size: 4vw;
@@ -621,7 +627,7 @@ footer {
     }
 
     #services {
-        margin-top: -25vh;
+        margin-top: -40vh;
     }
 
     #services h2 {
@@ -650,7 +656,7 @@ footer {
     #experience h2 {
       font-size: 12vw;
       letter-spacing: -0.5vw;
-      margin-top: -25vh;
+      margin-top: -40vh;
     }
   
     .technologies {

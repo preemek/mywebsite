@@ -40,7 +40,6 @@ window.addEventListener('scroll', handleScroll);
 // Uruchomienie migotania od razu po załadowaniu strony
 window.onload = function() {    
     document.body.style.visibility = "visible";
-    document.body.style.overflow = "auto";
 
     //Odblokowuje scrollowanie
     setTimeout(() => {
@@ -53,6 +52,7 @@ window.onload = function() {
             requestAnimationFrame(raf);
         }
         requestAnimationFrame(raf);
+
     }, 2000);
 
     // Przywracanie scrolla na górę strony
