@@ -7,6 +7,7 @@ const navdiv = document.querySelector('.navdiv');
 // Blokujemy scrollowanie na początku
 document.body.style.overflow = "hidden";
 
+
 // Funkcja, która obsługuje pojawianie się i znikanie napisu "SCROLL TO EXPLORE" w zależności od przewijania
 function handleScroll() {
     const scrollPosition = window.scrollY;
@@ -42,7 +43,7 @@ window.onload = function() {
     //Odblokowuje scrollowanie
     setTimeout(() => {
         // document.body.style.overflow = "auto";
-        // // Scrolling po 2 sekundach mozliwy
+        // Scrolling po 2 sekundach mozliwy
         const lenis = new Lenis();
 
         function raf(time) {

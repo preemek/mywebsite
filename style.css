@@ -23,8 +23,9 @@ body, html {
     /* było 2f2f2f */
     background-color: #fcfcfc;
     /* scroll-behavior: smooth; */
-    overflow: auto;
     -webkit-overflow-scrolling: touch;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /* Nagłówek */
@@ -128,8 +129,8 @@ main {
     min-height: calc(100vh - 10vh);
     /* Wysokość ekranu pomniejszona o header */
     position: relative;
-    /* overflow-x: hidden;
-    overflow-y: hidden; */
+    /* overflow-x: hidden;  */
+    /* overflow-y: hidden; */ 
 }
 
 .name-container {
