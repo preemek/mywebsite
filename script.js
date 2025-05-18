@@ -105,7 +105,7 @@ window.onload = function() {
                 start: "top 85%",   
                 end: "top 20%",     
                 toggleActions: "play none none none", 
-                markers: true,
+                // markers: true,
             }
         }
     );
@@ -202,7 +202,7 @@ window.onload = function() {
                 start: "top 85%",   
                 end: "top 20%",     
                 toggleActions: "play none none none", 
-                markers: true,
+                // markers: true,
             }
         }
     );
